@@ -10,6 +10,7 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  <link rel="icon" href="..\Logo-OLD-2D Resized.jpg" type="image/jpg" sizes="1rem">      
  <style>
+
  .title1{
    font-size: 2rem;
     padding-left: 65px;
@@ -18,11 +19,12 @@
     color:white;
   }
   .title2{
-    font-size: 2rem;    
-    color: white;        
+    font-size: 1rem;
+    color: white;         
     margin-top: -37px;
      margin-left: 70px;
-  }
+    }
+
     @media screen and (max-width: 400px) {
   .title1, .title2 {
    font-size: 1rem;
@@ -33,17 +35,66 @@
      margin-bottom: 1rem;
      margin-left: .5rem;
    }
+  
+  .SC-img{
+    max-width: 100%; 
+   } 
 
-      .card-img-top{
-      height: 15vw;
-      width:100%;
+   @media screen and (max-width: 400px) {
+  .SC-img {
+    max-width: 75%;
+  }
+  }
+
+
+   .register{
+    max-width: 100%;
+   
+   }
+
+   @media screen and (max-width: 400px) {
+  .register {
+    max-width: 83%;
+    
+  }
+  }
+
+  .Mission{
+    max-width: 100%; 
+   } 
+
+   @media screen and (max-width: 400px) {
+  .Mission {
+    max-width: 72%;
+    
+  }
+  }
+
+  .card-img-top{
+      height: 17vw;
+      width:100%;        
+      
     }
     .card-text{
-      text-decoration-line: none      
+      height: 8vw;
+      width:80%;     
     }
 
-    /* Style all font awesome icons */
-.fa {
+    @media screen and (max-width: 400px) {
+          .card-img-top {
+            height: 40vw;
+              width:85%;              
+          }
+          }
+
+          @media screen and (max-width: 400px) {
+        .card-text {
+          height: 40vw;
+            width:100%; 
+        }
+      }
+    
+      .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -85,6 +136,9 @@
 }
 
 
+
+            
+
             
  </style>
 
@@ -92,69 +146,73 @@
 
 
 <body>
- <header class="bg-success" style="width: 100%;">
+  <header class="bg-success" style="width: 100%;">
     <div class="row">
       <div class="col-md-6 sm-9">
         <img src="../Logo-OLD-2D Resized.jpg" alt="Logo" class="rounded-pill img-fluid" style="width: 3.5rem">      
           <p class="title1">Online Legal Drafting</p>
           <p class="title2">Legal Drafting With Clarity</p>
       </div>
-      
-        <div class="col-md-6 sm-9 my-auto">
-          <nav class="navbar navbar-expand-lg navbar-bg-success">
-            <div class="container-fluid">                      
-              <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" target="_blank" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" target="_blank" href="About.html">ABOUT-US</a>
-                  </li>                   
-                  <li class="nav-item">                    
-                    <a class="nav-link active text-white" target="_blank" href="Drafting.html">DRAFTING</a>                  
-                  </li>  
-                  <li class="nav-item">                    
-                    <a class="nav-link active text-white" target="_blank" href="Paralegal.html">PARALEGAL</a>                  
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" target="_blank" href="Contact.html">CONTACT</a>
-                  </li>  
-                </ul>                
-              </div>    
-            </div>
-          </nav>     
-                          
-        </div>      
-    
-    </div>
-  </header>
 
- 
+                    
+          <div class="col-md-6 sm-9 my-auto">            
 
+            <nav class="navbar navbar-expand-lg navbar-light bg-success">
+              
+              <div class="container-fluid"> 
+                
+                  <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                  <span class="navbar-toggler-icon">
+                  </span>
+                  </button>
+
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+
+                        <a class="nav-link active text-white" target="_blank" aria-current="page" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" target="_blank" href="About.html">ABOUT-US</a>
+                      </li>                   
+                      <li class="nav-item">                    
+                        <a class="nav-link active text-white" target="_blank" href="Drafting.html">DRAFTING</a>                  
+                      </li>  
+                      <li class="nav-item">                    
+                        <a class="nav-link active text-white" target="_blank" href="Paralegal.html">PARALEGAL</a>                  
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" target="_blank" href="Contact.html">CONTACT</a>
+                      </li>  
+                    </ul>                
+                  </div>                                
+                                     
+                    
+                 </div>
+              </div> 
+            </nav>
+          </div>    
         
-  <section class="bg-success mt-3 mb-3">
-    <div class="container-fluid">
+  </header> 
 
+  <section class="bg-success mt-2 mb-2">
+    <div class="container-fluid">
       <div class="row align-items-start width-auto">
-        <div class="col-md-9 sm-9">
-        <img src="./images/SC of India.jpg" class="img-fluid w-100" alt="profile pic">  
-        </div>           
-    
-        <div class="col-md-3 sm-3 align-items-start width-auto">
-          <div class="container-fluid py-md-3 bg-success">
+        <div class="col-md-9 sm-9 mt-3 mb-3"> 
+        <img src="./images/SC of India.jpg" class="SC-img" alt="profile pic">  
+        </div>         
+  
+        <div class="col-md-3 sm-3 register align-items-start width-auto">
+          <div class="container-fluid mt-3 bg-success">
           <h2 class="pt-3 text-center text-white">REGISTER NOW<br>[Free]</h2>
-          </div>
+          </div> 
           <br>
           <!-- Multiple inputs -->
           <div class="container-fluid input-group mb-3">
           <span class="input-group-text">Name</span>
           <input type="text" class="form-control" placeholder="Your Name">        
           </div>
-
+        
           <!-- Multiple addons / help text -->
           <div class="container-fluid input-group mb-3">
           <span class="input-group-text">email</span>
@@ -165,85 +223,78 @@
           <span class="input-group-text">Mobile</span>
           <input type="number" class="form-control" placeholder="Your Mobile Number">
           </div> 
-
+        
           <div class="container-fluid input-group mb-3">
           <span class="input-group-text">Address</span>          
-          <input type="text" class="form-control" id="inputAddress" placeholder="Your Address & Gramam">
+          <input type="text" class="form-control" id="inputAddress" placeholder="Your Addr. & Gramam">
           </div><br>      
             
           <p class="text-white">Registrants are eligible for service(s) at subsidised rates.</p>
-
+        
+        
+        
         </div> 
-        
-        
       </div>
 
     </div>
-
-        
   </section>
-
-  
-
-  <section class="bg-success p-3">
-    <div class="container"> 
-    <div class="row my-auto"> 
-      <div class="col-md-4">
-      <h5 class="text-start text-white py-3"><small>Online Legal Drafting - is a Project launched by Gandhi Mission Trust. For Details of the project 'click' on 'Drafting'|'Paralegal' button.</button>.</small></h5>
-</div>
-      <div class="col-md-8">
-      <h5 class="text-center text-white py-3"><small>“A Grama-Swaraj fit for the digital age” is a Program designed by<br> The Gandhi Mission Trust. Online Legal Drafting is one of the<br> Projects under the Grama Swaraj-digital age Program.</small></h5>
+    <section class="bg-success mt-2 mb-2">
+      <div class="container p-3"> 
+      <div class="row Mission"> 
+        <div class="col-md-6 div-1">
+        <p style="font-size: 1rem;" class="text-center text-white">Online Legal Drafting - is a Project launched by Gandhi Mission Trust. For Details of the project 'click' on 'Drafting'|'Paralegal'.</p>
+        </div>
+        <div class="col-md-6 div-2">
+        <p style="font-size: 1rem;" class="text-center text-white">“A Grama-Swaraj fit for the digital age” is a Program designed by<br> The Gandhi Mission Trust. Online Legal Drafting is one of the<br> Projects under the Grama Swaraj-digital age Program.</p>
+        </div>
       </div>
     </div>
-  </div>
-  </section>   
+    </section>   
 
-
-  <section class="bg-success mt-3"> 
-      <div class="row py-4 px-4">                 
-        <div class="col-md-4">
-            <div class="card">
-              <img src="./images/Gandhiji pics.jpg" class="card-img-top height: 40vw img-fluid" alt="...">
-              <div class="card-body">
-              <h5 class="card-title text-center text-success">Digital Grama-Swaraj</h5>
-              <p class="card-text text-success">Integrating village economy …through digital laws and distribution system leads to “A Grama-Swaraj fit for the digital age"- a dream program of the Trust...</p> 
-            </p>
-              <a href="About.html" class="btn btn-success">About-us...</a>
-              </div>
-            </div>
-          </div>      
-
-          <div class="col-md-4">           
-            <div class="card">
-              <img src="./images/legal-drafting -1.jpg" class="card-img-top height: 40vw img-fluid" alt="...">           
-              <div class="card-body">
-                <h5 class="card-title text-center text-success">Legal Drafting</h5>
-                <p class="card-text text-success">The service of Advocates (who are on the rolls of State Bar Council) are utilized for Online-legal-drafting service at reasonable fees for NRI's & Residents...</p>
-                <a href="Drafting.html" class="btn btn-success">Drafting...</a>
-              </div>
-            </div>
-            </a>
-          </div>
-
-
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./images/Paralegal Pic.jpg" class="card-img-top height: 40vw img-fluid" alt="...">
-              <div class="card-body">
-              <h5 class="card-title text-center text-success">Paralegal Service</h5>
-              <p class="card-text text-success">The service of paralegals' are utilized through on-line viz: Real estate paralegal – by collecting E.C, revenue records, tax-liabilities etc for NRI's & Residents...</p>
-              <a href="Paralegal.html" class="btn btn-success">Paralegal...</a>
-              </div>
-            </div>
-          </div>        
-        
-      </div>
+    <section class="bg-success sec p-3"> 
+      <div class="row div1 py-4 px-4">                 
       
-    </div>  
-  </section><br>
-
-   
-  <footer class="bg-dark text-white">    
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/Gandhiji pics.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+            <p font-size="1rem" class="card-title text-center font-size:strong text-success fw-bold">Digital Grama-Swaraj</p>
+            <p class="card-text text-center text-success">Integrating village economy …through digital laws and digital distribution system leads to “A Grama-Swaraj fit for the digital age"- a dream program of the Trust...</p> 
+          
+            <a href="About.html" class="btn btn-success">About us - Read more...</a>
+            </div>
+          </div>
+        </div>       
+  
+        <div class="col-md-4">           
+          <div class="card">
+            <img src="./images/legal-drafting -1.jpg" class="card-img-top img-fluid" alt="...">           
+            <div class="card-body">
+              <p font-size="1rem" class="card-title text-center text-success fw-bold">Legal Drafting</p>
+              <p class="card-text text-center text-success">The service of Advocates (who are on the rolls of Bar Council) are utilized for Online-legal-drafting service at reasonable fees for NRI's & Residents...</p>
+              <a href="Drafting.html" class="btn btn-success">Drafting - Read more...</a>
+            </div>
+          </div>
+             
+        </div>
+  
+  
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/Paralegal Pic.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+            <p font-size="1rem" class="card-title text-center text-success fw-bold">Paralegal Service</p>
+            <p class="card-text text-center text-success">The service of paralegals' are utilized through on-line viz: Real estate paralegal – by collecting E.C, revenue records, tax-liabilities etc for NRI's & Residents...</p>
+            <a href="Paralegal.html" class="btn btn-success">Paralegal - Read more...</a>
+            </div>
+          </div>
+        </div> 
+  
+      
+      </div> 
+    </section>
+  
+    <footer class="bg-dark text-white">    
       <div class="row text-white">        
         <div class="col-md-4 text-start p-4">
           <p>Copyrights: All rights reserved</p>
@@ -253,8 +304,8 @@
         <div class="col-md-4 text-center p-4">
           Quick Links <br>About Us <br>Blog <br>Contact Us<br> Account details
         </div>
-
-
+    
+    
         <div class="col-md-4 align-items-end p-4">
           <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -264,18 +315,24 @@
         <a href="#" class="fa fa-twitter"></a>
         <a href="#" class="fa fa-google"></a>
         <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-youtube"></a>       
-       
-        </div>             
-                
-      </div>
-
-    </div>
-
+        <a href="#" class="fa fa-youtube"></a>
         
-  </footer>
+       
+        </div>    
+    
+             
+      </div>
+    
+    
+    </div>
+    
+     
+    </footer>
+    
+ 
 
- <!-- Option 1: Bootstrap Bundle with Popper -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
