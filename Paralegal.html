@@ -52,6 +52,11 @@
       margin-left: .5rem;
       margin-bottom: 1rem;
     }
+    .btn{ 
+      width:100%;
+    height: auto;
+
+    }
    
     
         
@@ -165,74 +170,51 @@
 
   </section>
 
-  <section class="m-4">
-    <h3 class="text-center">Contact</h3> 
-    <br>
-    
-
-    <div class="container">
-      <div class="row">
-        
-        <div class="col-12">
-        <form class="row g-3">
-
-          <div class="row">
-            <div class="col-md-6">
-              <label for="First name" class="form-label">First name</label>
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-
-            
-            <div class="col-md-6">
-              <label for="Last name" class="form-label">Last name</label>
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            </div>         
-              
-           
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" aria-label="Email">
-              </div>
-
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" aria-label="Password">
-              </div>
-
-
-          <div class="col-12">
-            <label for="Address" class="form-label">Address</label>
-            <input type="text" class="form-control" placeholder="Address" id="Address" >
-          </div>
-          
-          <div class="col-md-6">
-            <label for="City" class="form-label">City</label>
-            <input type="text" class="form-control" placeholder="City" id="City">
-          </div>
-
-          <div class="col-md-4">
-            <label for="District" class="form-label">District</label>
-            <input type="text" class="form-control" placeholder="District" id="District">            
-          </div>
-          
-          <div class="col-md-2">
-            <label for="pin" class="form-label">Pin</label>
-            <input type="number" class="form-control" placeholder="Pin" id="pin">
-          </div>
-
-          <div class="col-12">          
-            <label for="comment on your requirements" class="form-label">Briefly state your requirements</label>           
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea><br>          
-        </div>
-          
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        
-        </form>    
+  <div class="col-md-4 my-1 bg-secondary">
+    <form action="method=">         
+      <div class="container">
+        <div class="row text-white bg-primary p-2">
+      <h5 class="pt-3 text-center text-white">CONTACT FORM</h5>
+    </div>
+      </div> 
+      <br>
+      <!-- Multiple inputs -->
+      <div class="container-fluid input-group mb-3">
+      <span class="input-group-text">Name</span>
+      <input type="text" class="form-control" placeholder="Your Name">        
       </div>
-  </section>
+    
+      <!-- Multiple addons / help text -->
+      <div class="container-fluid input-group mb-3">
+      <span class="input-group-text">Email</span>
+      <input type="email" class="form-control" placeholder="Your email">
+      </div>
+    
+      <div class="container-fluid input-group mb-3">
+      <span class="input-group-text">Mobile</span>
+      <input type="number" class="form-control" placeholder="Your Mobile Number">               
+    </div> 
 
+    
+      <div class="container-fluid input-group mb-1">
+      <span class="input-group-text">Address</span>          
+      <input type="text" class="form-control" id="inputAddress" placeholder="Your Address">
+      </div><br>  
+      
+      <div class="container-fluid input-group mb-1"> 
+        <span class="input-group-text">Service sought</span>        
+                
+        <textarea class="form-control" placeholder="Briefly state service requested" id="floatingTextarea2" style="height: 100px"></textarea><br>          
+    </div>
+    
+    
+    <div class="col-12 container-fluid">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+
+
+  </form>
 
 
 <!-- Option 1: Bootstrap Bundle with Popper -->

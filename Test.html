@@ -8,402 +8,382 @@
 
  <!-- Bootstrap CSS -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- <link rel="icon" href="..\Logo-OLD-2D Resized.jpg" type="image/jpg" sizes="1rem">
- 
+ <link rel="icon" href="..\Logo-OLD-2D Resized.jpg" type="image/jpg" sizes="1rem">      
  <style>
-  
-  h1{ 
-    margin: 0;
-    color: white;
 
-   }
-  
-  h2{
-     padding-left: 99px;
-     margin-bottom: 35px;
-     margin-top: -70px;     
-     color:white;
-   }
-
-   h3{
-     color: blue;
-     text-align: center;     
-   }
-
-   
-   h5{
-     color: blue;
-     
-   }
-
-
-   h6{
-     color: white;
-     font-size: 21px;     
-     margin-top: -37px;
-    margin-left: 6.4rem;
-   }
-
-   p .card-text{
-     color:white;
-     text-align:center;
-
-   }
-   
-
-
-      .rounded-pill{
-      margin-top: 1rem;
-      margin-left: 1rem;
+ .title1{
+   font-size: 2rem;
+    padding-left: 65px;
+    margin-bottom: 35px;
+    margin-top: -70px;     
+    color:white;
+  }
+  .title2{
+    font-size: 1rem;
+    color: white;         
+    margin-top: -37px;
+     margin-left: 70px;
     }
 
-    
-    .NWCimage{
-    width: 100%;
-    height: 400px; 
+    @media screen and (max-width: 400px) {
+  .title1, .title2 {
+   font-size: 1rem;
+  }
+  }
+     .rounded-pill{
+     margin-top: 2rem;
+     margin-bottom: 1rem;
+     margin-left: .5rem;
+   }
+  
+  .SC-img{
+    max-width: 100%; 
    } 
 
    @media screen and (max-width: 400px) {
-  .NWCimage {
-    max-width: 75%; }
+  .SC-img {
+    max-width: 75%;
+  }
   }
 
 
-    .card-img-top{
-      height: 15vw;
-      width:100%;
+   .register{
+    max-width: 100%;   
+   }
+
+   @media screen and (max-width: 400px) {
+  .register {
+    max-width: 83%;
+    
+  }
+  }
+
+  .Mission{
+    max-width: 100%; 
+   } 
+
+   @media screen and (max-width: 400px) {
+  .Mission {
+    max-width: 72%;
+    
+  }
+  }
+
+  .card-img-top{
+      height: 17vw;
+      width:100%;        
+      
     }
     .card-text{
-      text-decoration-line: none
+      height: 8vw;
+      width:80%;     
     }
 
+    @media screen and (max-width: 400px) {
+          .card-img-top {
+            height: 40vw;
+              width:85%;              
+          }
+          }
 
-   
+          @media screen and (max-width: 400px) {
+        .card-text {
+          height: 40vw;
+            width:100%; 
+        }
+      }
     
-    
+      .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+h4{
+     color:yellow;
+     -webkit-text-stroke: 1px red;
+   }
+
+p {
+  margin-top: 1em ;
+  margin-bottom: 1em ;
+  }
+  .boxed {
+  border: 2px solid white ;
+}
+         
+
+            
+
+            
  </style>
+
 </head>
 
+
 <body>
-  <header class="bg-success">
+  <header class="bg-success" style="width: 100% mt-2 mb-2">
     <div class="row">
       <div class="col-md-6 sm-9">
-        <img src="../Logo-OLD-2D Resized.jpg" alt="Logo" class="rounded-pill" style="width: 5rem">      
-                <h2>Online Legal Drafting</h2>
-                <h6>Legal Drafting With Clarity</h6>                
+        <img src="../Logo-OLD-2D Resized.jpg" alt="Logo" class="rounded-pill img-fluid" style="width: 3.5rem">      
+          <p class="title1">Online Legal Drafting</p>
+          <p class="title2">Legal Drafting With Clarity</p>
       </div>
 
-        <div class="col-md-6 col-3 my-auto">
-
-          <nav class="navbar navbar-expand-lg navbar-bg-success">
-            <div class="container-fluid">        
-              
-              <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" target="_blank" aria-current="page" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" target="_blank" href="About-Us.html">ABOUT-Us</a>
-                  </li>                   
-                  <li class="nav-item">                    
-                    <a class="nav-link text-white" target="_blank" href="Drafting.html">DRAFTING</a>                  
-                  </li>  
-                  <li class="nav-item">                    
-                    <a class="nav-link active text-white" target="_blank" href="Paralegal.html">PARALEGAL</a>                  
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" target="_blank" href="Contact.html">CONTACT</a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" target="_blank" href="Test.html">TEST</a>
-                  </li>    
-                </ul>                
-              </div>
-            </div>
-          </nav>
-          
                     
-          
-        </div>
-      
-    </nav>
+          <div class="col-md-6 sm-9 my-auto">            
 
-    </div>
-
-  </header>
-  
-
-  <section>
-    <div class="container-fluid">
-      <div class="row py-1">
-        <div class="col-md-6">
-          <img src="./images/New World Order.jpg" class="NWCimage" alt="profile pic">
-        </div>
-
-        <div class="col-md-3 bg-success">
-          <div class="card" style="width: 20rem;">
-            <img src="./images/legal-drafting -3.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Online Legal Drafting</h5>
-              <p class="card-text">The service of Advocates (who are on the rolls of Bar Council) are utilized at reasonable fees for NRI's & Residents...</p>
-              <a href="Drafting.html" class="btn btn-primary">GoTo Online Legal Drafting Page</a>
-            </div>        
-          </div>       
-        </div>
-
-        <div class="col-md-3 bg-success">
-          <div class="card" style="width: 20rem;">
-            <img src="./images/Paralegal.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Paralegal Service</h5>
-              <p class="card-text">Real Estate Paralegals' service is utilized for collecting E.C, revenue records, tax-liabilities etc for NRI's & Residents...</p>
-              <a href="Paralegal.html" class="btn btn-primary">GoTo Paralegal service Page</a>
-            </div>        
-          </div>       
-        </div>
-
-
-
-      </div>
-          
-    </div>  
-  </section>
-  
-  
-  <section>
-    <div class="card-group">
-      
-    
-      <div class="card bg-light px-4 py-2">
-      <img src="./images/Gandhiji pics.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h3 class="card-title">GANDHI MISSION TRUST</h3>
-        <p class="card-text text-primary">Gandhi Mission Trust (the Trust, for short) - was established in 2016, with the aims and objectives, among other, for the furtherance and implementation of principles, ideals and action programmes of Mahatma Gandhiji. 
-        But, after re-defining the time-related principles and ideals, wherever the changes of time and ground realities of life of a Globalising Age demands it and thereby aids to create an ideal ‘value based society – by accommodating the changing ‘values’.
-        <br><br>Mahatma Gandhi once said that: “there is necessity to continually make changes in our institutions and systems to suit to the needs of changing times”. We strictly follow these prophetic words and ...  Yes... we believe... 
-        that we have reached a point in history, which calls for changes in existing concepts, as he himself has directed. 
-        <br><br>Hence, our dream Program “A Grama-Swaraj fit for the Online Digital Age and Global Village”. Online-legal-drafting - is one of the Projects under the aforesaid Program launched by the Trust and the NWO Council jointly. Other online projects, which will take this Program to its logical end are on the anvil.</p>
-       
-      </div>
-      </div>
-      
-      
-
-    
-      
-      
-      <div class="card bg-primary px-4 py-2">
-        <img src="./images/New World Order2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h3 class="card-title1 text-white">THE NEW WORLD ORDER [NWO] – CHARTER</h3>
-          <h5 class="card-title2 text-white">CORE PRINCIPLE</h5>       
-          <p class="card-text text-white">And now ........The New World Order.<br>            
-            The New World Order is based on the core principle: THE TRUTH, THE WHOLE TRUTH AND NOTHING BUT THE TRUTH (‘the Truth’ for short).<br> 
-            <br>The following Doctrines are linked to and/or flows out of the aforesaid core principle, on an Online basis - where ever appropriate, and it forms an integral and inseparable part of the NWO.<br> 
-            1.	NON-VIOLANCE<br>
-            2.	RULE OF GOOD LAW<br>
-            3.	INDIVIDUAL FREEDOM<br>
-            4.	DIRECT TRUE DEMOCRACY<br>
-            5.	MUTUAL-RESPECT<br>
-            6.	EQUALITY<br>
-            7.	CONTINUOUS EVALUATION AND AMENDMENTS<br>
-            8.	PROPER AND EFFECTIVE REMEDIES<br>
-            <br>As part of our endevour to come-up with a new world order, the NWO Council has researched on many aspects of life in this World. interestingly, it includes about your general characteristics also.
-            
-            <p>            
-
-
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              (i) For Knowing Who You are? Click Here 
-              </button>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                Each individual has his own ‘Bhumika’ (പീഠിക) and looks at the world or other entities and on all transactions though this glass of Bhoomika.The bhoomika, is the cumulative result 
-                of your interactions and exposures, from day-one of your birth till this moment - with your family members, friends, society, media, your education, your experiences, your faculty capabilities, 
-                your environments, the place(s) and time you have covered, and your inherent personality traits etc…In short, you are a function of your Bhoomika. 
-                To re-mould an individual find out the respective elements in the Bhumika which controls him/her in the correction needed aspects, change it, the individual will change, as simple as that.                      
-          .</p>          
-              </div>
-             
-            </div>
-
-            <p>
+            <nav class="navbar navbar-expand-lg navbar-light bg-success">
               
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              (ii) What is the root cause of all Conflicts?
-              </button>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-              No two individuals have similar ‘Bhumika’. They try to perceive, understand and react to the whole world and/or its transactions, issues from their respective ‘Bhumika’ – This is the root cause of all conflicts.
-              And, the surprising fact is that majority never understands this and they firmly believe the world and its transactions appears to every-one as it appear to him/her – which make them to choose the uncompromising position(s). 
-              Hence let us first admit the limitations of our ‘equipment’ with which we are conducting analysis of the various core concept(s) including: (i) Individual, (ii) Family, (iii) Society, (iv) State and (v) World – and its interactions at different levels, 
-              through Religion, Education-systems, Culture, Belief systems, Science, Technology .... that too in this ever changing New Global Village.               
- 
-              </div>
-            </div>
-
-            <p>
-              
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              (iii) Is Truth Unitary? or Two fold? or Many fold?
-              </button>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-              Here we are not referring to The Buddhist doctrine of the two truths - the "conventional" truth, and the "ultimate" truth - or not even the Four Noble Truths that comprise the essence of Buddha's teachings. 
-              For the time being let us limit our discussion to the "conventional" truth. The NWO Council found in their research that TRUTH HAS DIFFERENT SHADES OR LEVELS, as long as you only see it from the ‘bhumika’ you have been deeply entrenched.
-              As time passes or because of changes in any of the ingredients of your ‘bhumika’, then...Yes, you begin to perceive the other shades of truth or rather levels of truth, and your hitherto firmly held belief systems begin to lose its self-protected boundaries and you begin to feel the changing breeze...
-            </div>
-            </div>
-
-
-            <p>
-              
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-              (iv) Why a New World Order? Who Manages it? 
-              </button>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                Have you ever dreamed of this beautiful World minus its vices? like: greed, anger, lust, envy, pride, 
-                laziness, behaviours - considered immoral, sinful, evil, criminal, corrupt, neglect, war, terrorism, sexual assaults, concentration of wealth and assets in the hands of few, 
-                etc …any way it is a long ..long list.<br>
-                Plus the wonderful idea of you also becoming part of the Government or Administration or Policy making with respect to life in this World.<br>
-                Sounds unbelievable? or Day-dreaming? or Utopian-idea?.<br>
-                No it is not, If you are also with NWO Council, it will speed-up!. <br> Further, details like the Full NWO Charter, Why a New World Order? Who Manages it ...etc will be available in the site newworldorder.co.in (Now under construction). Any way, the most important point is:<br> 
-                NWO Council aims at Inclusive Citizenship - which is a form of Direct Online True Democracy in which all Citizens are involved in Policy making and in Governing the jurisdiction, to which they directly form part-of, through their Conscious Choice in a Bottom-up way rather than Top-down.
+              <div class="container-fluid"> 
                 
-              </div>
-            </div>
+                  <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+                  <span class="navbar-toggler-icon">
+                  </span>
+                  </button>
 
-            <p>
-              
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            (v) Give us a glimpse about the NWO Platform?  
-            </button>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-              The NWO Council works on a wider platform, for example, amoung other, we intends to re-define the tenets of (i) ‘Nationalism’ (ii) ‘Religion’(iii) ‘Ownership and Distribution of Natural resources’ as well as the connected other ‘Economic resources’(iv) ‘Administrative Systems’ etc... 
-              <br>The very moment you do that successfully, the physical boundaries of the ‘Nations’ as well as the 99.99% of major cause(s) for War and the apparent conflict arising from individuals Bhoomika will disappear.<br> You don’t need a Military to run this World!! Sounds un-believable? (No, we are not Kidding!). We knew, you may find it difficult to digest it in one go, 
-              don’t worry, we will be putting it in step by step and in its natural evolution process of ideas.<br>And we are sure you will be amazed to perceive about the ease with which today's World disappears and the New Global Village emerges in its totality, at least until an ‘Alien’ appears in the scene. 
-              <br>For keeping this communication as brief as possible we have purposely avoided referring to, at least for the time being, the 234 different ‘isms’ (believed to be documented so far...) and its connected Doctrines, each representing a philosophical, political or moral doctrine or a belief system, such as Capitalisam, Communisam, Socialisam, Atheism, Religious faiths...etc. 
-              <br>Apart from keeping this brief, there are also other valid grounds, majority of such ‘isams’ basically deals with the distribution of the resources or assets or income, which we are otherwise dealing under clause (iii) and (iv) above. Similarly, other ‘isams’ (a) dealing with various religious undertones are covered under cl(ii) Religion and 
-              (b) different types of administrative machinery are covered under cl(i) Nationalism.<br> Our journey is scheduled to begin from the 'State' of Kerala from a date to be announced shortly. If a bell-rings deep inside you pls register with us (for further details please visit newworldorder.co.in) (now under construction).
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
 
+                        <a class="nav-link active text-white" target="_blank" aria-current="page" href="index.html">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" target="_blank" href="About-Us.html">ABOUT-US</a>
+                      </li>                   
+                      <li class="nav-item">                    
+                        <a class="nav-link active text-white" target="_blank" href="Drafting.html">DRAFTING</a>                  
+                      </li>  
+                      <li class="nav-item">                    
+                        <a class="nav-link active text-white" target="_blank" href="Paralegal.html">PARALEGAL</a>                  
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" target="_blank" href="Contact.html">CONTACT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" target="_blank" href="Test.html">TEST</a>
+                      </li>                      
 
-            </div>
-            </div>
-
-            <li class="nav-item">
-              <a class="nav-link active text-white" target="_blank" aria-current="page" href="index.html">GOTO HOME</a>
-            </li>
-
-         
-          
-        </div>
-      </div>
-
-      
-  
-    
-
-
-  </section>             
-          
-
-          
-      
-      
-    
-  
-
-  <section class="m-4">
-    <h3 class="text-center">Contact</h3> 
-    <br>
-    
-
-    <div class="container">
-      <div class="row">
+                    </ul>                
+                  </div>                                
+                                     
+                    
+                 </div>
+              </div> 
+            </nav>
+          </div>    
         
-        <div class="col-12">
-        <form class="row g-3">
+  </header> 
 
-          <div class="row">
-            <div class="col-md-6">
-              <label for="First name" class="form-label">First name</label>
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-            </div>
-
-            
-            <div class="col-md-6">
-              <label for="Last name" class="form-label">Last name</label>
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-            </div>         
-              
-           
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" aria-label="Email">
-              </div>
-
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" aria-label="Password">
-              </div>
-
-
-          <div class="col-12">
-            <label for="Address" class="form-label">Address</label>
-            <input type="text" class="form-control" placeholder="Address" id="Address" >
-          </div>
-          
-          <div class="col-md-6">
-            <label for="City" class="form-label">City</label>
-            <input type="text" class="form-control" placeholder="City" id="City">
+  <section class="bg-success mt-2 mb-2">
+    <div class="container-fluid">
+      <div class="row align-items-start width-auto">
+        
+        <div class="col-md-8 sm-8 mt-3 mb-3"> 
+        <img src="./images/SC of India.jpg" class="SC-img" alt="profile pic">  
+        </div>         
+  
+        <div class="col-md-4 sm-4 register align-items-start width-auto">
+          <div class="container-fluid mt-3 bg-success">
+          <h2 class="pt-3 text-center text-white">REGISTER NOW<br>[Free]</h2>
+          </div> 
+          <br>
+          <!-- Multiple inputs -->
+          <div class="container-fluid input-group mb-3">
+          <span class="input-group-text">Name</span>
+          <input type="text" class="form-control" placeholder="Your Name">        
           </div>
 
           <div class="col-md-4">
-            <label for="District" class="form-label">District</label>
-            <input type="text" class="form-control" placeholder="District" id="District">            
-          </div>
-          
-          <div class="col-md-2">
-            <label for="pin" class="form-label">Pin</label>
-            <input type="number" class="form-control" placeholder="Pin" id="pin">
-          </div>
-
-          <div class="col-12">          
-            <label for="comment on your requirements" class="form-label">Briefly state your requirements</label>           
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea><br>          
-        </div>
-          
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <label for="First name" class="form-label">First name</label>
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
           </div>
         
-        </form>    
+          <!-- Multiple addons / help text -->
+          <div class="container-fluid input-group mb-3">
+          <span class="input-group-text">email</span>
+          <input type="email" class="form-control" placeholder="Your email">
+          </div>
+        
+          <div class="container-fluid input-group mb-3">
+          <span class="input-group-text">Mobile</span>
+          <input type="number" class="form-control" placeholder="Your Mobile Number">
+          </div> 
+        
+          <div class="container-fluid input-group mb-3">
+          <span class="input-group-text">Address</span>          
+          <input type="text" class="form-control" id="inputAddress" placeholder="Your Address & Gramam">
+          </div><br>      
+            
+          <p class="text-white">Registrants are eligible for service(s) at subsidised rates.</p>
+        
+        
+        
+        </div> 
       </div>
+
+    </div>
   </section>
 
+  <section class="bg-success mt-3 mb-3">
+  <div class="container"> 
+  <div class="row p-2"> 
+    <div class="col-md-4 boxed">     
 
-     
+    <h4 class="text-start">Online Line Legal Drafting – What is it?</h4>
+    <p style="font-size: 1rem;" class="text-start text-white">If you need to prepare any legal document, for eg: Agreement, Notice, Affidavit, Memorandum of Understanding, 
+    Partnership-Deed, Lease-Deed, Sale-Deed, Will, Bond, Power of Attorney, etc etc  …You need not step-out of your home or office, just follow the 5 steps mentioned herein. 
+    The requisite Document will be on your table. Sounds Unbelievable but feels tempting...? Just try it and see the result!!!
+    <br><br>
+    If you are curious to know about the charges, who is preparing these Legal Documents, how safe is your data etc please click on ‘Drafting’...</p>
 
+  </div>
+    
+    <div class="col-md-4 boxed">
+    <h4 class="text-start">Online Paralegal Service – What is it?</h4>    
+    <p style="font-size: 1rem;" class="text-start text-white">If you have watched the renowned American NETFLIX series ‘SUITS’. you must be familiar with the word ‘Paralegal’.
+      Their work include researching and investigating Legal documents, collecting documents like 
+      title-encumbrance certificate, land tax receipts, information about tax-liabilities etc.<br><br>
+      There are several kinds of paralegals, for eg: Real estate paralegal, Litigation paralegal, etc..<br>
+      <br>We offer Real estate Paralegal services. To know more click on ‘Paralegal’...</p>
+    </div>
 
+    <div class="col-md-4 boxed">
+      <h4 class="text-start">Who is Sponsoring Online Legal Drafting Project?– Why?</h4>
+      <p style="font-size: 1rem;" class="text-start text-white">‘Gandhi Mission Trust’ – is sponsoring the Project. Gandhiji once said: “there is necessity to continually make changes in our 
+      institutions and systems to suit to the needs of changing times”…<br>
+        <br> 
+        ‘A Grama-Swaraj fit for the digital age’ - is a dream Program designed by the Trust. Online Legal Drafting is one of the Projects under the Grama Swaraj-digital age Program. Various other On-line Projects are also in the pipe-line. 
+      <br><br>The newly coined 'Digital Grama-Swaraj’ will be a vibrant reminder of ‘Global Village’ –  To know more click on ‘About-Us’...
+      .</p>
+    </div>
+
+  </div>
+</div>
+</section> 
+
+  
+
+    <section class="bg-success sec p-3"> 
+      <div class="row div1 py-4 px-4">                 
       
-      <footer>
+             
+  
+        <div class="col-md-4">           
+          <div class="card">
+            <img src="./images/legal-drafting -1.jpg" class="card-img-top img-fluid" alt="...">           
+            <div class="card-body">
+              <p font-size="1rem" class="card-title text-center text-success fw-bold">Legal Drafting</p>
+              <p class="card-text text-center text-success">The service of Advocates (who are on the rolls of Bar Council) are utilized for Online-legal-drafting service at reasonable fees for NRI's & Residents...</p>
+              <a href="Drafting.html" class="btn btn-success">Drafting - Read more...</a>
+            </div>
+          </div>
+             
+        </div>
+  
+  
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/Paralegal Pic.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+            <p font-size="1rem" class="card-title text-center text-success fw-bold">Paralegal Service</p>
+            <p class="card-text text-center text-success">The service of paralegals' are utilized through on-line viz: Real estate paralegal – for collecting E.C, revenue records, tax-liabilities etc for NRI's & Residents...</p>
+            <a href="Paralegal.html" class="btn btn-success">Paralegal - Read more...</a>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./images/Gandhiji pics.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+            <p font-size="1rem" class="card-title text-center font-size:strong text-success fw-bold">Digital Grama-Swaraj</p>
+            <p class="card-text text-center text-success">Integrating village economy …through digital laws and digital distribution system leads to “A Grama-Swaraj fit for the digital age"- a dream program of the Trust...</p> 
+          
+            <a href="About.html" class="btn btn-success">About us - Read more...</a>
+            </div>
+          </div>
+        </div>  
+  
+      
+      </div> 
+    </section>
+  
+    <footer class="bg-dark text-white">    
+      <div class="row text-white">        
+        <div class="col-md-4 text-start p-4">
+          <p>Copyrights: All rights reserved</p>
+         
+        </div>
+        
+        <div class="col-md-4 text-center p-4">
+          Quick Links <br>About Us <br>Blog <br>Contact Us<br> Account details
+        </div>
+    
+    
+        <div class="col-md-4 align-items-end p-4">
+          <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        
+       
+        </div>    
+    
+             
+      </div>
+    
+    
+    </div>
+    
+     
+    </footer>
+    
+ 
 
 
-      </footer>
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
