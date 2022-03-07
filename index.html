@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Online Legal Drafting</title>
 
  <!-- Bootstrap CSS -->
@@ -223,7 +224,7 @@ p {
         </div>  
 
         <div class="col-md-4 my-1 bg-secondary">
-          <form id="gform" action="https://script.google.com/macros/s/AKfycbxNrlkwaAGg33HAFNDEh0UzwPAS29bbQjFlWQsQMiwmsBXlpyyLk4K_5pSIGe4c7X0r/exec" method="post">         
+          <form id="submit-form" action="">         
             <div class="container">
               <div class="row text-white bg-primary p-2">
             <h5 class="pt-3 text-center text-white">CONTACT FORM</h5>
@@ -233,30 +234,29 @@ p {
             <!-- Multiple inputs -->
             <div class="container-fluid input-group mb-3">
             <span class="input-group-text">Name</span>
-            <input type="text" class="form-control" placeholder="Your Name">        
+            <input type="text" class="form-control" name="name" placeholder="Your Name">         
             </div>
           
             <!-- Multiple addons / help text -->
             <div class="container-fluid input-group mb-3">
             <span class="input-group-text">Email</span>
-            <input type="email" class="form-control" placeholder="Your email">
+            <input type="email" class="form-control" name="email" placeholder="Your email">
             </div>
           
             <div class="container-fluid input-group mb-3">
             <span class="input-group-text">Mobile</span>
-            <input type="number" class="form-control" placeholder="Your Mobile Number">               
+            <input type="number" class="form-control" name="number" placeholder="Your Mobile Number">                
           </div> 
 
           
             <div class="container-fluid input-group mb-1">
             <span class="input-group-text">Address</span>          
-            <input type="text" class="form-control" id="inputAddress" placeholder="Your Address">
+            <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Your Address">
             </div><br>  
             
             <div class="container-fluid input-group mb-1"> 
-              <span class="input-group-text">Service sought</span>        
-                      
-              <textarea class="form-control" placeholder="Briefly state service requested" id="floatingTextarea2" style="height: 100px"></textarea><br>          
+              <span class="input-group-text">Service sought</span>      
+              <textarea class="form-control" placeholder="Briefly state service requested" name="message" id="floatingTextarea2" style="height: 100px"></textarea><br>          
           </div>
           
           
@@ -305,8 +305,8 @@ p {
       <p style="font-size: 1rem;" class="text-start text-white">‘Gandhi Mission Trust’ and 'New World Order Council' – are sponsoring the Project. Gandhiji once said: “there is necessity to continually make changes in our 
       institutions and systems to suit to the needs of changing times”…<br>
         <br> 
-        ‘A Grama-Swaraj fit for the Online Digital Age and Global Village’ - is a dream Program designed by the Trust. Online Legal Drafting is one of the Projects under the Grama Swaraj-digital age Program. Various other On-line Projects are also in the pipe-line. 
-      <br><br>The newly coined 'Online Digital Grama-Swaraj’ will be a vibrant reminder of ‘Global Village’ –  To know more click on ‘About-Us’...
+        ‘A Gram-Swaraj fit for the Online Digital Age and Global Village’ - is a dream Program designed by the Trust. Online Legal Drafting is one of the Projects under the Gram Swaraj-digital age Program. Various other On-line Projects are also in the pipe-line. 
+      <br><br>The newly coined 'Online Digital Gram-Swaraj’ will be a vibrant reminder of ‘Global Village’ –  To know more click on ‘About-Us’...
       .</p>
     </div>
 
@@ -349,7 +349,7 @@ p {
           <div class="card">
             <img src="./images/Gandhiji pics.jpg" class="card-img-top img-fluid" alt="...">
             <div class="card-body">
-            <p font-size="1rem" class="card-title text-center font-size:strong text-success fw-bold">Digital Grama-Swaraj</p>
+            <p font-size="1rem" class="card-title text-center font-size:strong text-success fw-bold">Digital Gram-Swaraj</p>
             <p class="card-text text-center text-success">Integrating village economy …through digital laws and digital distribution system leads to “A Grama-Swaraj fit for the digital age"- a dream program of the Trust...</p> 
           
             <a href="About.html" class="btn btn-success">About us - Read more...</a>
@@ -395,9 +395,27 @@ p {
     
      
     </footer>
-    
- 
 
+    <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbyRLVPTDm4Bn8cB_Tx0thPBZIdsCv9pV_bI1nEtrY92XKs1tj3kbYwbMsbhcnLyf3mCvw/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+    
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

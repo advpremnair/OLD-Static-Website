@@ -158,7 +158,7 @@
 
 
           <div class="col-md-4 my-1 bg-secondary">
-            <form action="method=">         
+            <form id="submit-form" action="">         
               <div class="container">
                 <div class="row text-white bg-primary p-2">
               <h5 class="pt-3 text-center text-white">CONTACT FORM</h5>
@@ -168,30 +168,29 @@
               <!-- Multiple inputs -->
               <div class="container-fluid input-group mb-3">
               <span class="input-group-text">Name</span>
-              <input type="text" class="form-control" placeholder="Your Name">        
+              <input type="text" class="form-control" name="name" placeholder="Your Name">         
               </div>
             
               <!-- Multiple addons / help text -->
               <div class="container-fluid input-group mb-3">
               <span class="input-group-text">Email</span>
-              <input type="email" class="form-control" placeholder="Your email">
+              <input type="email" class="form-control" name="email" placeholder="Your email">
               </div>
             
               <div class="container-fluid input-group mb-3">
               <span class="input-group-text">Mobile</span>
-              <input type="number" class="form-control" placeholder="Your Mobile Number">               
+              <input type="number" class="form-control" name="number" placeholder="Your Mobile Number">                
             </div> 
   
             
               <div class="container-fluid input-group mb-1">
               <span class="input-group-text">Address</span>          
-              <input type="text" class="form-control" id="inputAddress" placeholder="Your Address">
+              <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Your Address">
               </div><br>  
               
               <div class="container-fluid input-group mb-1"> 
-                <span class="input-group-text">Service sought</span>        
-                        
-                <textarea class="form-control" placeholder="Briefly state service requested" id="floatingTextarea2" style="height: 100px"></textarea><br>          
+                <span class="input-group-text">Service sought</span>      
+                <textarea class="form-control" placeholder="Briefly state service requested" name="message" id="floatingTextarea2" style="height: 100px"></textarea><br>          
             </div>
             
             
@@ -210,7 +209,25 @@
     </div>
   </section>
 
-      
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyRLVPTDm4Bn8cB_Tx0thPBZIdsCv9pV_bI1nEtrY92XKs1tj3kbYwbMsbhcnLyf3mCvw/exec", 
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
 
 
  
