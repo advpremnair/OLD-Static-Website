@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Online Legal Drafting</title>
 
  <!-- Bootstrap CSS -->
@@ -238,6 +239,28 @@
 
 
   </form>
+  
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyRLVPTDm4Bn8cB_Tx0thPBZIdsCv9pV_bI1nEtrY92XKs1tj3kbYwbMsbhcnLyf3mCvw/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+
+
 
 
 
