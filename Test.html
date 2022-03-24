@@ -11,534 +11,382 @@
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
  <link rel="icon" href="./images/Logo-OLD-2D-Resized.jpg" type="image/jpg" sizes="1rem">      
  <style>
-
- .title1{
-   font-size: 2rem;
-    padding-left: 65px;
-    margin-bottom: 35px;
-    margin-top: -70px;     
-    color:white;
-  }
-  .title2{
-    font-size: 1rem;
-    color: white;         
-    margin-top: -37px;
-     margin-left: 70px;
-    }
-
-    @media screen and (max-width: 400px) {
-  .title1, .title2 {
-   font-size: 1rem;
-  }
-  }
-     .rounded-pill{
-     margin-top: 2rem;
-     margin-bottom: 1rem;
-     margin-left: .5rem;
-   }
-  
-  .SC-img{
-    max-width: 100%; 
-   } 
-
-   @media screen and (max-width: 400px) {
-  .SC-img {
-    max-width: 75%;
-  }
-  }
-
-
-   .register{
-    max-width: 100%;   
-   }
-
-   @media screen and (max-width: 400px) {
-  .register {
-    max-width: 83%;
-    
-  }
-  }
-
-  .Mission{
-    max-width: 100%; 
-   } 
-
-   @media screen and (max-width: 400px) {
-  .Mission {
-    max-width: 72%;
-    
-  }
-  }
-
-  .card-img-top{
-      height: 17vw;
-      width:100%;        
-      
-    }
-    .card-text{
-      height: 8vw;
-      width:80%;     
-    }
-
-    @media screen and (max-width: 400px) {
-          .card-img-top {
-            height: 40vw;
-              width:85%;              
-          }
-          }
-
-          @media screen and (max-width: 400px) {
-        .card-text {
-          height: 40vw;
-            width:100%; 
-        }
+   
+      *{ 
+       box-sizing: border-box;
       }
-    
-      .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
+   
+      body{
+       margin: 0;
+       
+      
+      }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
+   
+      .title1{
+     font-size: 2rem;
+     padding-left: 65px;
+     margin-bottom: 35px;
+     margin-top: -70px;     
+     color:white;
+      }
+      .title2{
+      font-size: 1rem;
+     color: white;          
+     margin-top: -37px;
+      margin-left: 70px;
+      }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-h4{
-     color:yellow;
-     -webkit-text-stroke: 1px red;
-   }
-
-p {
-  margin-top: 1em ;
-  margin-bottom: 1em ;
-  }
-  .boxed {
-  border: 2px solid white ;
-}
-         
-.btn{ 
+      .pic3-img {
       width:100%;
-    height: auto;
+      height: auto;
+      }
 
-    }
-            
+      .rounded-pill{
+      margin-top: 2rem;
+      margin-left: .5rem;
+      margin-bottom: 1rem;
+      }
+      .btn{ 
+      width:100%;
+      height: auto;
 
-            
- </style>
+      }
 
-</head>
+      .information, .data{
+      border: 10px solid rebeccapurple;
 
 
-<body>
-  <header class="bg-success" style="width: 100% mt-2 mb-2">
-    <div class="row">
-      <div class="col-md-6 sm-9">
-        <img src="./images/Logo-OLD-2D-Resized.jpg" alt="Logo" class="rounded-pill img-fluid" style="width: 3.5rem">      
+      }
+
+      .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      }
+
+      /* Add a hover effect if you want */
+      .fa:hover {
+      opacity: 0.7;
+      }
+
+      /* Set a specific color for each brand */
+
+      /* Facebook */
+      .fa-facebook {
+      background: #3B5998;
+      color: white;
+      }
+
+      /* Twitter */
+      .fa-twitter {
+      background: #55ACEE;
+      color: white;
+      }
+      .fa-google {
+      background: #dd4b39;
+      color: white;
+      }
+
+      .fa-linkedin {
+      background: #007bb5;
+      color: white;
+      }
+
+      .fa-youtube {
+      background: #bb0000;
+      color: white;
+      }
+   
+    
+        
+  </style>
+    </head>
+
+  <body>
+    <header class="bg-success" style="width: 100% mt-2 mb-1">
+      <div class="row">
+        <div class="col-md-6 sm-9">
+          <img src="./images/Logo-OLD-2D-Resized.jpg" alt="Logo" class="rounded-pill img-fluid" style="width: 3.5rem">      
           <p class="title1">Online Legal Drafting</p>
           <p class="title2">Tech-enabled Legal Solutions</p>
-      </div>
+        </div>
 
-                    
-          <div class="col-md-6 sm-9 my-auto">            
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        
+      <div class="col-md-6 col-3 my-auto">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">        
               
-              <div class="container-fluid"> 
-                
-                  <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-                  <span class="navbar-toggler-icon">
-                  </span>
-                  </button>
+              <button class="navbar-toggler m-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">                  
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
+                  <form>
+                    <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_JAqFYbZOFJ1TkE" async> 
+                    </script> 
+                  </form>
 
-                        <a class="nav-link active text-white" target="" aria-current="page" href="index.html">HOME</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" target="" href="About-Us.html">ABOUT-US</a>
-                      </li>                   
-                      <li class="nav-item">                    
-                        <a class="nav-link active text-white" target="" href="Drafting.html">DRAFTING</a>                  
-                      </li>  
-                      <li class="nav-item">                    
-                        <a class="nav-link active text-white" target="" href="Paralegal.html">PARALEGAL</a>                  
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" target="" href="Contact.html">CONTACT</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" target="" href="Test.html"></a>
-                      </li>                      
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" target="" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" target="" href="About-Us.html">ABOUT-Us</a>
+                  </li>                   
+                  <li class="nav-item">                    
+                    <a class="nav-link text-white" target="" href="Drafting.html">DRAFTING</a>                                    
+                  </li>  
+                  <li class="nav-item">                    
+                    <a class="nav-link active text-white" target="" href="Paralegal.html">PARALEGAL</a>                  
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" target="" href="Contact.html">CONTACT</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link text-white" target="" href="Test.html"></a>
+                  </li> 
 
-                    </ul>                
-                  </div>                                
-                                     
-                    
-                 </div>
-              </div> 
-            </nav>
-          </div>    
-        
-  </header> 
-
-  <section class="bg-success mt-2 mb-2">
-    <div class="container-fluid">
-      <div class="row align-items-start width-auto">
-
-
-        
-        <div class="col-md-8 sm-8 mt-3 mb-3"> 
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="./images/US SC.jpg" class="d-block w-100" alt="...">
+                </ul>                
+              </div>
+            </div>
+          </nav>
+          
+                 
+      </div>
+            
     </div>
-    <div class="carousel-item">
-      <img src="./images/SC of India.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="./images/UK SC.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-        </div>  
 
+  </header>
 
+  <section>
+    <div class="container-fluid">    
+      <div class="row">
 
-        <div class="col-md-4 my-1 bg-secondary">
-          <form id="submit-form" action="">         
+        <div class="col-md-4 bg-secondary my-1">
+          <br>
+          <img src="./images/legal-drafting -3.jpg" class="pic3-img w-100" target="_blank" alt="profile pic">                        
+          <img src="./images/legal-drafting -3.jpg" class="pic3-img w-100" target="_blank" alt="profile pic"> 
+        </div>      
+
+                       
+          <div class="col-md-4 my-1 bg-secondary">            
             <div class="container">
-              <div class="row text-white bg-primary p-2">
-            <h5 class="pt-3 text-center text-white">CONTACT FORM</h5>
-          </div>
+              <div class="row text-white bg-primary p-3 mt-3">
+                <p class="pstep1"></p>
+                <br>
+                <h4 class="step1">Online Legal Drafting - How it Works</h4>                
+              </div>
+            </div>
+            <br>
+
+            <div class="container">
+              <div class="row text-white bg-primary p-3">
+                <p class="pstep1">Step - 1</p>                
+                <h5 class="step1">Fill the Form below</h5>
+                               
+              </div>
             </div> 
             <br>
-            <!-- Multiple inputs -->
-            <div class="container-fluid input-group mb-3">
-            <span class="input-group-text">Name</span>
-            <input type="text" class="form-control" name="name" placeholder="Your Name">         
-            </div>
-          
-            <!-- Multiple addons / help text -->
-            <div class="container-fluid input-group mb-3">
-            <span class="input-group-text">Email</span>
-            <input type="email" class="form-control" name="email" placeholder="Your email">
-            </div>
-          
-            <div class="container-fluid input-group mb-3">
-            <span class="input-group-text">Mobile</span>
-            <input type="number" class="form-control" name="number" placeholder="Your Mobile Number">                
-          </div> 
 
-          
-            <div class="container-fluid input-group mb-1">
-            <span class="input-group-text">Address</span>          
-            <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Your Address">
-            </div><br>  
+            <div class="container">
+              <div class="row text-white bg-primary p-3">
+                <p class="pstep1">Step - 2</p>
+                <h5 class="step1">Get a call from the Paralegal</h5>                
+              </div>
+            </div> 
+            <br>
+
+            <div class="container">
+              <div class="row text-white bg-primary p-2">
+                <p class="pstep1">Step - 3</p>
+                <h5 class="step1">Make the agreed payment.Transfer fact-sheet and documents digitally</h5>                
+              </div>
+            </div>         
+
+
+                             
+          </div>     
+
             
-            <div class="container-fluid input-group mb-1"> 
-              <span class="input-group-text">Service sought</span>      
-              <textarea class="form-control" placeholder="Briefly state service requested" name="message" id="floatingTextarea2" style="height: 100px"></textarea><br>          
-          </div>
-          
-          
-          <div class="col-12 container-fluid">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
+          <div class="col-md-4 my-1 bg-secondary">
+
+            <div class="container">
+              <div class="row text-white bg-primary p-2 mt-3">
+                <p class="pstep1">Step - 4</p>
+                <h5 class="step1">Talk to Advocate. After analysing your requirements, Draft is forwarded to you</h5>                
+              </div>
+            </div>
+            <br>
+           
+            <div class="container">
+              <div class="row text-white bg-primary">
+                <p class="pstep1">Step - 5</p>
+                <h5 class="step1">On approval of Draft by You, receives Final Document On-line</h5>                
+              </div>
+            </div>
+            <br>
+
+            <div class="container">
+              <div class="row text-white text-center bg-primary">
+                <p class="pstep1"></p>
+                <h5 class="step1">#####</h5>                
+              </div>
+            </div> 
+            
+            <div class="container">
+              <img src="./images/legal-drafting -4.jpg" class=" pic3-img w-100" alt="profile pic">                        
+             </div> 
+   
+      </div>  
+    </div>
+  </section>
+
+  <section>   
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-1 col-md-1 bg-secondary information border border-1"></div>
+
+
+        <div class="p-1 px-5 col-md-6 bg-primary information border border-2">
+          <br>
+          <h3 class="pt-1 text-center text-white text-decoration-underline">Legal Drafting</h3>
+          <br>
+          <ul class="text-white">
+            <h6 class="text-start text-white text-decoration-underline">Who is preparing the requested Documents</h6>
+            
+            <li>The requested documents are prepared by Expert Advocates who are having a minimum of 15 years experience and are in the rolls of Bar-Council.</li> 
+
+
+            <br><h6 class="text-start text-white text-decoration-underline">Fees and Charges</h6>
+            
+            <li>The Fees and applicable charges for any specific work will be communicated to the clients by the Paralagal, before accepting the work. 
+            The basis for calculating the same will depend on the amount of time required to draft the requested document plus other chargeable cost, if any, incurred in connection therewith.</li>
+            <li>In a service sector where time is money, new technologies provide innovative ways to free up time and other cost-saving avenues, which will definitely decrease the total-cost. 
+            The clients are also eligible for their due share, which will be reflected in the form of reduced fees. Apart from that they also save time and other expenses, since they are availing the service from their home/office.</li>
+            
+            <br><h6 class="text-start text-white text-decoration-underline">Confidentiality</h6>
+           
+            <li>The confidentiality of the entire transaction shall be strictly protected as per the standard norms - under the Non-disclosure clause -  prevailing in the service sector viz:- ‘Both parties shall keep strictly confidential and shall not disclose, 
+            or cause or permit to be disclosed, to any person or entity, any information about the transaction except: (i) that such disclosure must be made in order that such party not commit a violation of law, and (ii)  to those officers, employees or other authorized agents 
+            and representatives and professional consultants of such party to whom disclosure is reasonably necessary in connection with the Transaction and (iii)  except as otherwise consented to in writing by the non-disclosing party’. </li>
+
+          </ul>  
+
         </div>
+        <div class="p-1 col-md-1 bg-secondary information border border-1"></div>
 
-
-        </form>
-  
+        
        
-        
 
-  </div>  
-</div>
-</section>
-  
-<section>
-  <div class="card mb-3" style="max-width: 800px;">
-    <div class="row g-0 ms-3 p-1 border border-primary bg-primary">
-      <div class="col-md-5">
-        <img src="./images/Castle.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-6">
-        <div class="card-body">
-          <h5 class="card-title"></h5>
-          <br><br><p class="card-text text-end text-white fs-3 fw-light">Every big castle was once started with a single block</p>
-         
+        <div class="col-md-4 bg-secondary">
+        <form id="submit-form" action="">         
+        <div class="container">
+        <div class="row text-white bg-primary p-2">
+        <h5 class="pt-3 text-center text-white">CONTACT FORM</h5>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<br><br><br>
-
-<div class="container-fluid">
-  <div class="row">   
-    <div class="col-md-2 ms-3 bg-body"> 
-    </div>
-
-    <div class="card container-fluid" style="width: auto;">
-      <div class="row g-0 p-1 border border-secondary bg-secondary">
- 
-        <div class="col-md-4">
-        <img src="./images/New World Order2.jpg" class="img-fluid image-start" alt="...">
+        </div> 
+        <br>
+        <!-- Multiple inputs -->
+        <div class="container-fluid input-group mb-3">
+        <span class="input-group-text">Name</span>
+        <input type="text" class="form-control" name="name" placeholder="Your Name">         
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-          <h2 class="card-title text-center fw-light text-white p-2 px-5">Who we are and what we stand for</h2>
-          <p class="card-text text-start text-white fw-light px-5">The New World Order - is a registered Scientific And Social Science Trust – with clear objectives and broad range of 
-          interests (the NWO Trust, or the Trust, for short) extending to Educational, Charitable and Religious Areas. The Board of Trustees (BoT) is responsible for managing the affairs of the Trust. The BoT ensure all stakeholders' best interests. The trust is governed 
-          by the terms under which it was created and other general applicable laws.<br><br>We stand for healthy and joyful bond for all (i) within oneself (ii) with relatives and friends <br>(iii) with the outside world. 
-          </p>
-     
+    
+        <!-- Multiple addons / help text -->
+        <div class="container-fluid input-group mb-3">
+        <span class="input-group-text">Email</span>
+        <input type="email" class="form-control" name="email" placeholder="Your email">
         </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid">
-  <div class="row">   
-<div class="col-md-12 bg-body p-1"> 
-</div>
-</div>
-</div>
-
-<br><br><br>
-
-  <div class="container-fluid">
-    <div class="row">   
-  <div class="col-md-12 bg-body p-1"> 
-  </div>
-  </div>
-  </div>
-
-  
-
-
-  <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-      <div class="card">
-        <img src="./images/TruthSelected.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h4 class="card-title text-primary fw-light">Our Core Value</h4>
-          <h6 class="card-text text-primary fw-bold">THE TRUTH,THE WHOLE TRUTH AND NOTHING BUT THE TRUTH .</h6>
-          <p class="card-text text-primary fw-light"></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="./images/Doctrine1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h4 class="card-title text-primary fw-light">Doctrines – That Are Integral And Inseparable Part Of The NWO</h4>
-          <h6 class="card-text text-primary fw-bold">1.	NON-VIOLANCE<br>
-            2.	RULE OF GOOD LAW<br>
-            3.	INDIVIDUAL FREEDOM<br>
-            4.	DIRECT TRUE DEMOCRACY<br>
-            5.	MUTUAL-RESPECT<br>
-            6.	EQUALITY<br>
-            7.	TUNING WITH TIME<br>
-            8.	TIME BOUND REMEDIES<br>
-          </h6>
-          <p class="card-text text-primary fw-light"></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <div class="card">
-        <img src="./images/Integration of Technology & Humanity2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h4 class="card-title text-primary fw-light">Prioritizing Research and Action Areas </h4>
-          <h6 class="card-title text-primary fw-bold">Our research interests and areas of action are diverse and all-embracing.<br><br>Currently we focus on: 
-          <br>Role of Digital & On-line Technology in resolving and re-defining - Transactional and Relationship issues of Humanity - <br>which falls under 'Tuning with Time' and 'Time bound Remedies'.</h6>
-
-          <p class="card-text"></p>
-        </div>
-      </div>
-    </div>
+    
+        <div class="container-fluid input-group mb-3">
+        <span class="input-group-text">Mobile</span>
+        <input type="number" class="form-control" name="number" placeholder="Your Mobile Number">                
+        </div> 
 
     
-
-
-
-
-    
-    <div class="col">
-      <div class="card">
-        <img src="./images/Pending Cases Edited.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title text-primary fw-bold">Specifically Addressed Topic - The Indian Justice Deliverey System</h5>
-          <p class="card-title text-primary fw-normal">The System is facing challenges at various levels of justice delivery, staring from the drafting of petition stage to the execution of Decree. A number of people who are aggrieved 
-          are not able to seek justice because of the prohibitive costs of litigation and the unpardonable-delay associated with conducting of cases. Total Cases pending before SC and in various High Courts (HC) in the country as on 2022 Feb.<br><br>
-          
-          <button type="button" class="btn btn-primary btn-sm">Total Cases Pending before - Supreme Court<br>70,200</button>
-          <br><br><button type="button" class="btn btn-secondary btn-sm">Civil Cases pending - HC's<br> 42,52,840</button>
-          <button type="button" class="btn btn-success btn-sm">Criminal Cases pending - HC's<br>16,41,220</button>
-
-                  
-          
-        </p>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="col">
-      <div class="card">
-      <img src="./images/Integration of Technology & Humanity.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h4 class="card-title text-primary fw-bold">Enabling Technology in resolving issues of Humanity</h4>
-        <p class="card-title text-primary fw-normal">Online Legal Drafting is – one of such daring steps in a series to follow, towards addressing the said issue(s), from the very starting point, viz, Legal-Drafting, by (i) keeping 
-        it with-in reasonable cost(s) as well as addressing the bottle-necks inherent in the system which contributes to (ii) intolerable delay in the justice delivery process by making use of the Digitalization and Online Internet System(s) - hence NWO and Online Legal Drafting.
-      </p>
-      </div>
-    </div>
-    </div>
-  
-
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        (i) For Knowing Who You are? Click Here 
-        </button>
-      </h2>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Each individual has his own ‘Bhumika’ (പീഠിക) and looks at the world or other entities and on all transactions though this glass of Bhoomika. The bhoomika, is the cumulative result of your interactions and exposures, from day-one of your birth till this moment - with your family members, 
-          friends, society, media, your education, your experiences, your faculty capabilities, your environments, the place(s) and time you have covered, and your inherent personality traits etc…In short, you are a function of your Bhoomika. 
-          To re-mould an individual find out the respective elements in the Bhumika which controls him/her in the correction needed aspects, change it, the individual will change, as simple as that.
-          </strong>                                                 
-
-        </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-      <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-      (ii) Is Truth Unitary? or Two fold? or Many fold?
-      </button>
-      </h2>
-      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong> The NWO Council found in its research that TRUTH HAS DIFFERENT SHADES OR LEVELS, as long as you only see it from the ‘Bhumika’ you have been deeply entrenched. As time passes or due to sweeping changes in Science and Technology, or because of changes in any of the ingredients 
-          of your ‘Bhumika’, then...Yes, you begin to perceive the other shades of truth or rather levels of truth, and your hitherto firmly held belief systems begin to lose its self-protected boundaries and you begin to feel the changing breeze...Yes …it means the Journey has started from the ‘Conventional Truth’ to the ‘Ultimate truth’.
-        </strong>
-        </div>
-      </div>               
-      </div>
-
-      <div class="accordion-item">
-      <h2 class="accordion-header" id="headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        (iii) What is the root cause of all Conflicts?
-        </button>
-      </h2>
-      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>No two individuals have similar ‘Bhumika’ and the more mystifying or puzzling fact is that the very same person is having his Bhumika being anchored at different ‘ports’ every now and then – hence the dominant shade of Bhumika ruling the person at a given moment is also undergoing changes (for eg: anger, love, success, failure, 
-          historical events, 'isms' … etc). So, each person tries to perceive, understand, analyze and react to the whole world and/or its transactions, issues through their respective ‘Bhumika’ or ‘shade of Bhumika’. Hence there will be material difference in perceptions or observations about the same transactions and/or issues which naturally leads to diversity in judgment, 
-          opinion and conclusion (and the interesting fact is that the very same person also changes his opinion as the ‘shade’ changes). This is the root cause of all conflicts.<br><br>
-          Amazingly, because of the bhumika, to each person it appears or they genuinely feels that their respective stands are correct or justified and others failed in assessing or understanding its true nature. What a biased or imperfect equipment everyone is having or carrying!! Yet all swear by it. This is the magic-of-life (or conflict-in-life). And, the surprising fact is 
-          that majority never understands this and they firmly believe the world and its transactions appears to every-one as it appear to him/her – yet others take foolish decisions - which make him/her to choose the uncompromising position(s), at least for the time being.<br><br>
-          Hence what is needed is: first, admit or understand the limitations of each-ones ‘equipment’ with which we are conducting our ‘serious’ analysis and declarations about everything under the sun (may be above the sun also), and learn to be humble. In the above circumstances, if you are not adamant in anchoring your 'Bhumika-ship' in any particular port and would be bold enough to 
-          continue with your journey through hitherto unchartered terrains ….Yes…then NWO is delighted to point to you a New World, where the different ‘levels’ of ‘Conventional Truth’ and the resultant conflict would wither-away and naturally the New World Order takes you to the lap of ‘Ultimate Truth’.
-        </strong>
-        </div>
-      </div>
-      </div>
-
-      <div class="accordion-item">
-      <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        (iv) Why a New World Order? How is it connected with Online Legal Drafting?
-        </button>
-      </h2>
-      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <strong>Have you ever thought of how Science and Technology revolutionize our lives and its environments and bring drastic changes? Starting from, let-us say, invention of (i) ‘Wheel&Axil’ - then the revolutions it brought in the ‘Transportation’ sector in the form of Train, Trucks, Cars, Airplane, and now we are touching ‘Space Tourism’; (ii) Information Technology 
-          (IT) – starting from Printing press, then Telephone and now Digital concepts, Online and Internet; (iii) Energy Sector; (iv) Health Care Products …so on and so forth.<br><br>
-          Out of the above, 21st Centaury is going to witness unprecedented and unparalleled knowledge explosion and the resultant product revolution in the IT sector, which is going to be all Pervasive. So it is going to make drastic changes in all walks of our life, as well as our notions especially about the core concepts like: (i) Truth (ii) Non-violence (iii) Democracy 
-          (iv) Rule of Law (v) Freedom (vi) Equality (vii) Tuning with time (viii) Remedies….etc.<br><br>
-          New World Order Council is trying to re-define the above concepts against the background of the IT revolution, and come out with solutions, which ideally fits to a New World Order [NWO]. Justice delivery system, which falls under ‘Remedies’, mentioned above, is one of our priority areas. The present Legal System is facing challenges at various levels of justice delivery, 
-          staring from the first stage of drafting of Petitions to the final stage of execution of Decree(s). A sizable number of people, who are aggrieved, are not able to seek justice because of the unjustified prohibitive costs and the unpardonable-delay associated with Justice Delivery Mechanisms.<br><br>
-          Online Legal Drafting is – one of such daring steps in a series to follow, towards addressing the said issue(s), from the very starting point, viz, Legal-Drafting, by (i) keeping it with-in reasonable cost(s) as well as addressing the bottle-necks inherent in the system which contributes to (ii) intolerable delay in the justice delivery process by making use of the Digitalization 
-          and Online Internet System(s) - hence NWO and Online Legal Drafting.
-          </strong>
-          </div>
-        </div>
-      </div>
-
+        <div class="container-fluid input-group mb-1">
+        <span class="input-group-text">Address</span>          
+        <input type="text" class="form-control" id="inputAddress" name="address" placeholder="Your Address">
+        </div><br>  
       
+        <div class="container-fluid input-group mb-1"> 
+        <span class="input-group-text">Service sought</span>      
+        <textarea class="form-control" placeholder="Briefly state service requested" name="message" id="floatingTextarea2" style="height: 100px"></textarea><br>          
+        </div>
+    
+    
+        <div class="col-12 container-fluid">
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+        <br><br><br><br>
         
+         
+        
+
+
+
+
+
+
+        </div>
+        </div>
+
+        
+      
+        </form>
+
+        
+
+
+
+
+
+      </div> 
+
+    </div>
     
-    
+
+  </section> 
 
 
 
 
-  </div>
 
 
+  <script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyRLVPTDm4Bn8cB_Tx0thPBZIdsCv9pV_bI1nEtrY92XKs1tj3kbYwbMsbhcnLyf3mCvw/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
 
-</div>
-
-
-          
+            }
+        })
+    })
+</script>
 
 <footer class="bg-dark text-white">    
- <div class="row text-white">        
+  <div class="row text-white">        
     <div class="col-md-4 text-start p-4">
-      <p>Copyrights: All rights reserved</p>     
+      <p>Copyrights: All rights reserved</p>
+     
     </div>
     
     <div class="col-md-4 text-center p-4">
       Quick Links <br>About Us <br>Blog <br>Contact Us<br> Account details
     </div>
+
 
     <div class="col-md-4 align-items-end p-4">
       <!-- Add icon library -->
@@ -551,14 +399,13 @@ p {
     <a href="#" class="fa fa-linkedin"></a>
     <a href="#" class="fa fa-youtube"></a>
     
-      </div>  
-    </div>
-  </div>    
+   
+    </div>  
+  </div>
+</div>    
  
 </footer>
-          
-         
-    
+
 
 
 
